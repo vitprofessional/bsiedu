@@ -1,0 +1,263 @@
+
+
+/*/ top header*/
+
+.carousel-logo {
+    display: block;
+    width: 70px;
+    height: auto;
+}
+
+.carousel-header-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;
+}
+
+.carousel-md {
+    position: absolute;
+    right: 15%;
+    bottom: auto;
+    left: 10%;
+    z-index: 10;
+    padding-top: 57px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 52%;
+}
+
+.carousel-sm {
+    left: 6%;
+    right: 5%;
+    transform: translateY(-50%);
+    /*bottom: 0;*/
+    top: 73%;
+}
+
+
+@media (max-width: 767px) {
+    .header-top .btn {
+        box-shadow: none
+    }
+}
+
+@media (min-width: 320px) {
+    .carousel-area .carousel-item .carousel-img {
+        height: 8em;
+    }
+}
+
+@media (min-width: 375px) {
+    .carousel-area .carousel-item .carousel-img {
+        height: 9.5em;
+    }
+}
+
+@media (min-width: 425px) {
+    .carousel-area .carousel-item .carousel-img {
+        height: 10.5em;
+    }
+}
+
+@media (min-width: 575px) {
+    .carousel-area .carousel-item .carousel-img {
+        height: 11.5em;
+    }
+}
+
+@media (min-width: 600px) {
+    .carousel-area .carousel-item .carousel-img {
+        height: 11.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-area .carousel-item .carousel-img {
+        height: 12.5em;
+    }
+}
+
+@media (min-width: 991px) {
+    .w-res {
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .carousel-area .carousel-item .carousel-img {
+        height: 18.5em;
+    }
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1100px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1366px) {}
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1800px) {
+    body {
+         zoom: 110%; 
+    }
+}
+
+@media (min-width: 1900px) {
+    body {
+         zoom: 115%; 
+    }
+}
+
+@media (min-width: 2100px) {
+    body {
+         zoom: 115%; 
+    }
+}
+
+@media (min-width: 2400px) {
+    body {
+         zoom: 120%; 
+    }
+}
+
+@media (min-width: 2500px) {}
+
+@media (min-width: 2800px) {}
+
+@media (min-width: 3800px) {}
+
+.header-top {
+    /*    background-color: #683091;
+    font-size: .8em;
+    border-bottom: 4px solid #8bc643;*/
+    background-color: #008000;
+    font-size: .8em;
+    border-bottom: 4px solid #8ad024;
+    background: linear-gradient(to right, #1a801a, #115804) !important;
+}
+
+
+
+.header-top .btn {
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #8ad024;
+    color: #7b0e19 !important;
+    border: 1px solid #008000;
+    font-weight: bold;
+    margin: 0;
+}
+
+    .header-top .select {
+        padding: 4px 10px;
+        border-radius: 3px;
+        font-size: 12px;
+        border: 1px solid #008000;
+        font-weight: bold;
+        margin: 0;
+    }
+
+.org-title {
+    border-left: 4px solid #DA291C;
+}
+
+.org-des > h4.bg-primary {
+    border-left: 4px solid #DA291C !important;
+}
+
+.header-top input[type="text"] {
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+ul.header-logo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.header-logo li {
+        display: inline
+    }
+
+        ul.header-logo li a {
+            display: inline-block
+        }
+
+    /*ul.header-logo*/
+
+    ul.header-logo a i {
+        padding: 10px;
+        font-size: 12px;
+        width: 32px;
+        text-align: center;
+        text-decoration: none;
+        margin: 1px 0px;
+        border-radius: 69%;
+    }
+
+    ul.header-logo a:hover {
+        opacity: 0.7;
+    }
+
+    ul.header-logo .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    ul.header-logo .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    ul.header-logo .fa-google {
+        background: #dd4b39;
+        color: white;
+    }
+
+    ul.header-logo .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    ul.header-logo .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    ul.header-logo .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+
+    ul.header-logo .fa-yahoo {
+        background: #430297;
+        color: white;
+    }
+
+
+    ul.header-logo .fa-reddit {
+        background: #ff5700;
+        color: white;
+    }
+
+    ul.header-logo .fa-rss {
+        background: #ff6600;
+        color: white;
+    }
+
+    ul.header-logo .fa-home {
+        background: #5cba1e;
+        color: white;
+    }

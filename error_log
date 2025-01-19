@@ -1,0 +1,20 @@
+[11-Mar-2024 20:41:48 UTC] PHP Warning:  require_once(/home1/bsiedu2021/public_html/public/index.php): Failed to open stream: No such file or directory in /home1/bsiedu2021/public_html/server.php on line 21
+[11-Mar-2024 20:41:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/bsiedu2021/public_html/public/index.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home1/bsiedu2021/public_html/server.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/bsiedu2021/public_html/server.php on line 21
+[22-Mar-2024 21:28:51 UTC] PHP Warning:  require_once(/home1/bsiedu2021/public_html/public/index.php): Failed to open stream: No such file or directory in /home1/bsiedu2021/public_html/server.php on line 21
+[22-Mar-2024 21:28:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/bsiedu2021/public_html/public/index.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home1/bsiedu2021/public_html/server.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/bsiedu2021/public_html/server.php on line 21
+[25-Mar-2024 16:17:34 UTC] PHP Warning:  require_once(/home1/bsiedu2021/public_html/public/index.php): Failed to open stream: No such file or directory in /home1/bsiedu2021/public_html/server.php on line 21
+[25-Mar-2024 16:17:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/bsiedu2021/public_html/public/index.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home1/bsiedu2021/public_html/server.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/bsiedu2021/public_html/server.php on line 21
+[02-May-2024 20:27:48 UTC] PHP Warning:  require_once(/home1/bsiedu2021/public_html/public/index.php): Failed to open stream: No such file or directory in /home1/bsiedu2021/public_html/server.php on line 21
+[02-May-2024 20:27:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/bsiedu2021/public_html/public/index.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home1/bsiedu2021/public_html/server.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/bsiedu2021/public_html/server.php on line 21

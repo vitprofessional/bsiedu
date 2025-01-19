@@ -1,0 +1,63 @@
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+      vertical-align: middle !important;
+      text-align:center;
+ }
+.nav-pills .nav-link {
+    border-radius: 0px !important;
+}
+
+.nav-sidebar > .nav-item {
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #4b545c;
+}
+.nav-sidebar .nav-item > .nav-link {
+    margin-bottom: 0px !important;
+}
+
+.sidebar {
+    height: calc(100% - (3.5rem + 1px));
+    overflow-y: auto;
+    padding-bottom: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0;
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+}
+
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+    .map-container-2 iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+@font-face {
+    font-family: BenSenHandwriting;
+    src: url(fontes/BenSenHandwriting.ttf);
+}
+
+@font-face {
+    font-family: kalpurush;
+    src: url(fontes/kalpurush.ttf);
+}
+
